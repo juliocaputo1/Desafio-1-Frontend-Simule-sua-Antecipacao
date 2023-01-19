@@ -1,14 +1,9 @@
-import { DivForm } from "../divForm";
-import { DivConteudoTotalStyle } from "./style"
-import DivResultados from "../divResultados";
+import { DivConteudoTotalStyle } from "../style";
 
-const DivTotal = () => {
+function DivConteudoTotal() {
     return (
-        <DivConteudoTotalStyle>
-            <DivForm></DivForm>
-            <DivResultados></DivResultados>
-        </DivConteudoTotalStyle>
+        DivConteudoTotalStyle
     )
 }
 
-export default DivTotal
+export default DivConteudoTotal
