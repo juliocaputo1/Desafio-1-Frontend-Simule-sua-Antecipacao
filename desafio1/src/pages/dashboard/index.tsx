@@ -10,10 +10,11 @@ function Dashboard() {
 
     const [result, setResult] = useState([])
 
+
     const formSchema = yup.object().shape({
         amount: yup.number().required("Valor da venda obrigatório").moreThan(999, "Valor da venda deve ser R$1000 ou mais"),
-        installments: yup.string().required("Número de parcelas obrigatório"),
-        mdr: yup.string().required("Percentual de MDR obrigatório"),
+        installments: yup.number().required("Número de parcelas obrigatório"),
+        mdr: yup.number().required("Percentual de MDR obrigatório"),
     })
 
     const { register, handleSubmit, formState: { errors } } = useForm({
@@ -30,7 +31,6 @@ function Dashboard() {
                 console.log(err)
             })
     }
-
     return (
         <DivConteudoTotal>
             <DivFormStyle>
@@ -38,7 +38,6 @@ function Dashboard() {
                 <FormAntecipacaoStyle onSubmit={handleSubmit(onSubmitFunction)}>
                     <label>Informe o valor da venda *
                         <input required type='number' {...register("amount")}></input>
-                        {errors.title?.message}
                     </label>
                     <div>
                         <label>Em quantas parcelas *

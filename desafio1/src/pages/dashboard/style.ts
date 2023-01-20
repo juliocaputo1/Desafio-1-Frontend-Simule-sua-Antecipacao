@@ -12,13 +12,13 @@ export const DivResultadosStyle = styled.div`
     padding-left: 5%;
     display: flex;
     flex-direction: column;
-    padding-top: 15%;
+    padding-top: 10%;
 
     h2{
         color: #3D75BB;
         font-size: 16px;
         border-bottom: 0.5px solid #3D75BB;
-        width: 140%;
+        width: 80%;
         font-weight: bolder;
         padding-bottom: 4px;
     }
@@ -27,16 +27,26 @@ export const DivResultadosStyle = styled.div`
 export const ResultadosStyle = styled.div`
     color: #5D9CEC;
     font-size: 16px;
-    margin-top: 20%;
+    margin-top: 5%;
 
     li{
         list-style: none;
     }
     ul{
-        margin-bottom: 22%;
+        margin-bottom: 10%;
     }
     span{
         font-weight: bold;
+    }
+    button{
+        background-color: #5D9CEC;
+        color: #fff;
+        font-weight: bold;
+        border: 1px ridge #DDE6E9;
+        border-radius: 5px;
+        width: 90%;
+        height: 10vh;
+        cursor: pointer;
     }
 `
 
@@ -90,6 +100,9 @@ export const FormAntecipacaoStyle = styled.form`
         height: 28px;
         border: 1px ridge #DDE6E9;
         border-radius: 5px;
+        color: #656565;
+        font-weight: bold;
+        cursor: pointer;
     }
 `
 
