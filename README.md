@@ -1,3 +1,22 @@
+**Desafio 1- FrontEnd - Simulação de Antecipação**
+
+Esse projeto foi feito como forma de desafio no módulo 6 do curso da Kenzie Academy Brasil.
+Nele, é desenvolvida uma calculadora que permite a clientes saberem quanto irão receber caso optem por antecipar o recebimento do valor
+de uma determinada venda.
+
+No projeto foram utilizados React, Typescript e CSS com styled-components, além de yup e react-hook-form para criação 
+e validação de formulários, 
+
+Além disso, foi consumidaa seguinte API: https://frontend-challenge-7bu3nxh76a-uc.a.run.app, na qual foi realizado um
+método POST com os valores da transação (amount), parcelas (installments) e taxa (mdr) a fim de calcular o total a ser
+recebido em cada data com a antecipação.
+
+Foi feito deploy do projeto no vercel no seguinte link: 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
