@@ -1,6 +1,6 @@
 # Desafio 1- FrontEnd - Simulação de Antecipação
 
-Esse projeto foi feito como forma de desafio no módulo 6 do curso da Kenzie Academy Brasil.
+Esse projeto foi feito como forma de desafio no módulo 6 do curso de Desenvolvedor Full-Stack da Kenzie Academy Brasil.
 Nele, é desenvolvida uma calculadora que permite a clientes saberem quanto irão receber caso optem por antecipar o recebimento do valor
 de uma determinada venda.
 
