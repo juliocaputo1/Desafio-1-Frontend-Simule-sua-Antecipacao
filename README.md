@@ -1,4 +1,4 @@
-**Desafio 1- FrontEnd - Simulação de Antecipação**
+# Desafio 1- FrontEnd - Simulação de Antecipação
 
 Esse projeto foi feito como forma de desafio no módulo 6 do curso da Kenzie Academy Brasil.
 Nele, é desenvolvida uma calculadora que permite a clientes saberem quanto irão receber caso optem por antecipar o recebimento do valor
@@ -11,7 +11,7 @@ Além disso, foi consumidaa seguinte API: https://frontend-challenge-7bu3nxh76a-
 método POST com os valores da transação (amount), parcelas (installments) e taxa (mdr) a fim de calcular o total a ser
 recebido em cada data com a antecipação.
 
-Foi feito deploy do projeto no vercel no seguinte link: 
+Foi feito deploy do projeto no vercel no seguinte link: https://desafio-1-frontend-chi.vercel.app
 
 
 
