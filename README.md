@@ -5,9 +5,9 @@ Nele, é desenvolvida uma calculadora que permite a clientes saberem quanto irã
 de uma determinada venda.
 
 No projeto foram utilizados React, Typescript e CSS com styled-components, além de yup e react-hook-form para criação 
-e validação de formulários, 
+e validação de formulários.
 
-Além disso, foi consumidaa seguinte API: https://frontend-challenge-7bu3nxh76a-uc.a.run.app, na qual foi realizado um
+Além disso, foi consumida a seguinte API: https://frontend-challenge-7bu3nxh76a-uc.a.run.app, na qual foi realizado um
 método POST com os valores da transação (amount), parcelas (installments) e taxa (mdr) a fim de calcular o total a ser
 recebido em cada data com a antecipação.
 
